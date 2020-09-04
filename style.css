@@ -1,0 +1,70 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+p{
+   text-align: center;
+}
+.app {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+}
+
+header h1 {
+   margin-top: 100px;
+   margin-bottom: 30px;
+   font-size: 40px;
+}
+
+header p {
+   font-size: 16px;
+}
+
+.blocks {
+   width: 30%;
+   display: flex;
+   margin-bottom: 20%;
+}
+
+.blocks>div {
+   height: 150px;
+   width: 150px;
+   flex: 1;
+}
+
+.block1 {
+   background: Green;
+}
+
+.block2 {
+   background: blue;
+}
+
+.block3 {
+   background:pink;
+}
+
+.block4 {
+   background:purple;
+}
+
+.block5 {
+   background:skyblue;
+}
+
+.block6 {
+   background:brown;
+}
+.bubble-div >div{
+   position: absolute;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   bottom: 100%;
+   left: 20%;
+   z-index: -1;
+}
